@@ -5,21 +5,28 @@
     overflow: hidden;;
 }
 .box{
+    
     position: fixed;
     z-index: 2;
-    width: 100%;
-    height: 70px;
-    background-color: rgb(4, 57, 82);
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    padding:0px 20px;
-    align-items: center;
+width: 100%;
+height: 70px;
+background-color: rgb(4, 57, 82);
+
+font-family: Arial, Helvetica, sans-serif;
+
+
+display: flex;
+justify-content: space-between;
+padding:0px 20px;
+align-items: center;
 }
 .box.LOGO{
     width: 50PX;
-    height: 50px;
-    color: white;
+height: 50px;
+color: white;
+
+
+
 }
 
 
@@ -59,46 +66,38 @@ h1{display: block;
     
     margin-left: 70px;
     padding-top: 50px;
-    font-size: 4em;
+font-size: 4em;
     font-weight: 900;
-    color: rgb(53, 54, 55);
+  color: rgb(53, 54, 55);
 }
-<<<<<<< HEAD
-h3{
-    display: block;
-=======
 h2{display: block;
    
->>>>>>> 0f3064fd88db773a4da2f2762019bb2559f793a0
     margin-left: 120px;
-    font-size: 4em;
+ 
+font-size: 4em;
     font-weight: 700;
-    color: rgb(67, 92, 92);
+  color: rgb(67, 92, 92);
 }
-
 p{
+   
     margin-left: 90px;
-    padding-left: 30px;
-    font-size: 20px;
+ padding-left: 30px;
+font-size: 20px;
     font-weight: 100;
-    color: rgb(16, 16, 17);
-    text-decoration: underline;
+  color: rgb(16, 16, 17);
+  text-decoration: underline;
 }
-
-.multi{
-    text-transform: uppercase;
-    color: rgb(52, 161, 219);  
+.multi{text-transform: uppercase;
+    color: rgb(52, 161, 219);
+    
 }
-
 .links{
     display: flex;
     list-style: none;
 }
-
 #linkedin{
     padding-right: 10px;
 }
-
 .icons a i{
     padding: 10px 20px;
     color: white;
@@ -106,9 +105,9 @@ p{
     transition: 200ms;
     
 }
-
 .icons :hover{
     transform: scale(1.8);
+   
     color: grey;
 }/*.qual
 
@@ -129,51 +128,45 @@ p{
 }*/
 .q{
     display: flex;
+   
+   
     width: 100%;
     height: 100vh;
-}
+    
+    
 
-<<<<<<< HEAD
-.qual{
-    position: relative;
-    z-index: -1;
-=======
+}
+.qual
+
 { position: relative;
    
->>>>>>> 0f3064fd88db773a4da2f2762019bb2559f793a0
     display: flex;
     width: 100%;
     height: 100vh;
     margin-top: 10px;
     background-position: center;
+   
     background-image: url('images/q.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-}
-<<<<<<< HEAD
+    
 
-.b{
-    margin-top: 10px;
-=======
+
+}
 .b{display: flex;
     justify-content: center;
    margin-top: 10px;
->>>>>>> 0f3064fd88db773a4da2f2762019bb2559f793a0
     position: relative;
     width: 300px;
     height: 400px;  
     bottom: -120px;
     right: -950px;
     background-color: rgb(245, 181, 54);
-<<<<<<< HEAD
-    border-radius: 10%;   
-=======
     border-radius: 10%;
     
 }
-h3{padding-top: 30px;
+span{padding-top: 30px;
     padding-right: 120px;
     font-size: 20px;
     
->>>>>>> 0f3064fd88db773a4da2f2762019bb2559f793a0
 }
