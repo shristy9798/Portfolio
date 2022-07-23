@@ -24,7 +24,7 @@
 <div class="main">
     <div class="cols col0"></div>
     <h1 id="R">RAHUL PRADHAN</h1><br>
-    <h3>i'm<span class="multi"></span></h3>
+    <h3>I'm  <span class="multi"></span></h3>
     <p>10 Years Teaching/Research experience in the field of computer science.</p>
 
     <div class="c">
@@ -40,10 +40,16 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-    var tp=document.getElementsByClassName(".multi",{
-        Strings:["Professor","lecturer","data analyst","developer"],
+    // var tp=document.getElementsByClassName(".multi",{
+    //     Strings:["Professor","Lecturer","Data Analyst","Developer"],
+    //     loop:true,
+    // })
+    var tp = new Typed(".multi",{
+        strings: ["Professor","Lecturer","Data Analyst","Developer"],
         loop:true,
-        
+        typeSpeed : 100,
+        backSpeed : 80,
+        backDelay : 1000,
     })
         </script>
 </body>
