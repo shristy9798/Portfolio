@@ -20,13 +20,12 @@ justify-content: space-between;
 padding:0px 20px;
 align-items: center;
 }
-.box.LOGO{
+
+#logo{
     width: 50PX;
 height: 50px;
+
 color: white;
-
-
-
 }
 
 
@@ -38,9 +37,6 @@ color: white;
     background-image: url('images/bkb.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-}
-.col0{
-    display: inline-flex;
 }
 
 .imgbox{
