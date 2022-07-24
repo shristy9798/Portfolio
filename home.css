@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;600;9ee8display=swap');
 *{
     padding: 0;margin: 0;box-sizing: border-box;
-}.container{
-    overflow: hidden;;
 }
 .box{
     
@@ -68,7 +66,7 @@ align-items: center;
     position: relative;
     
     margin-left: 85px;
-    padding-top: 50px;
+    padding-top: 65px;
 font-size: 4em;
     font-weight: 900;
   color: rgb(53, 62, 97);
@@ -176,7 +174,7 @@ p{
 }
 
 #tech{
-    
+    padding-top: 160px;
     color: black;
     text-align: center;
     text-decoration: underline;
@@ -215,12 +213,12 @@ margin-top: 10px;
     transform: scale(1.2);
 }
 .b{
-   margin-top: 10px;
+   /* margin-top: 10px; */
     position: relative;
     width: 300px;
     height: 410px;  
-    bottom: -120px;
-    right: -950px;
+    bottom: -90px;
+    right: -900px;
     background-color: rgb(234, 223, 201);
     border-radius: 10%;
     
@@ -237,14 +235,19 @@ margin-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-#sec1{
+#s{
     width: 100%;
     height:95vh;
-    background-color: rgb(79, 144, 176);
+    background-image: url("images/po.jpg");
+    background-size: cover;
+   /* background-color: rgb(79, 144, 176);*/
+    
+}
+#sec1{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 20px;
+   
 }
 #s1{
     margin-left: 5%;
@@ -256,19 +259,56 @@ margin-top: 10px;
     width: 350px;
     height: 300px; 
     margin: 30px ;
+    border-radius: 20%;
     background-color:white;
 box-shadow: 5px 5px 5px grey;
+transition: 300ms;
+}
+.bbox:hover{
+    transform: scale(1.2);
 }
 
+
+#project{  margin-bottom: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+
+}
+#s1{
+   background-image: url("images/park.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+#s2{background-image: url("images/citra.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;}
+#s3{background-image: url("images/mcq.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;}
 
 .imgs{
 height: 60%;
 width: 100%;
+
+
 }
 
 .text{
-    height: 40%;
-    width: 100%;
+    padding-left: 10px;
+    padding-right: 5px;
+    
+    text-align: center;
+    margin-top: 65%;
+  
+}
+#ct{text-align: center;
+    
+
+}
+.new{
+    padding-top: 5px;
 }
 #b1{
     background-image: url('https://p.kindpng.com/picc/s/358-3580594_web-designing-hd-png-download.png');
