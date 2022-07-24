@@ -169,8 +169,8 @@ p{
     width: 100%;
     height: 92vh;
     
-    background-position:bottom;
-    background-image: url('images/tech.jpg');
+    
+    background-image: url('images/te.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -178,14 +178,15 @@ p{
 #tech{
     
     color: black;
+    text-align: center;
     text-decoration: underline;
 }
 .spec .sp1
 { 
 margin-top: 10px;
-    margin-left: 10%;
-   width: 80%;
-   height: 40%;
+   
+   width: 100%;
+   height: 100%;
    display: flex;
    justify-content: space-around;
    
@@ -201,10 +202,10 @@ margin-top: 10px;
 .sbox{
     
     background-color: aliceblue;
-    margin-top: 10px;
+    margin-top: 60px;
     position: relative;
-    width: 225px;
-    height: 250px;  
+    width: 275px;
+    height: 300px;  
     background-color: white;
     border-radius: 5%;
     box-shadow: 5px 5px 5px grey;
