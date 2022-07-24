@@ -10,7 +10,9 @@
     z-index: 2;
 width: 100%;
 height: 80px;
-background-color: rgb(4, 57, 82);
+background-color: #043952;
+
+/* background-color: rgb(4, 57, 82); */
 
 font-family: Arial, Helvetica, sans-serif;
 
@@ -62,31 +64,39 @@ align-items: center;
     
 }
 
-h1{display: block;
+#R{display: block;
     position: relative;
     
-    margin-left: 70px;
+    margin-left: 85px;
     padding-top: 50px;
 font-size: 4em;
     font-weight: 900;
-  color: rgb(53, 54, 55);
+  color: rgb(53, 62, 97);
 }
-h2{display: block;
-   
-    margin-left: 120px;
- 
-font-size: 4em;
+#ra{
+    display: block;
+    position: relative;
+    
+    margin-left: 85px;
+    font-size: 4em;
+    font-weight: 900;
+    color: rgb(53, 62, 97);
+
+}
+h2{
+    display: block;
+    margin-left: 100px;
+    font-size: 4em;
     font-weight: 700;
-  color: rgb(67, 92, 92);
+    color: rgb(71, 104, 104);
 }
 p{
-   
-    margin-left: 90px;
- padding-left: 30px;
-font-size: 20px;
+    margin-left: 70px;
+    padding-left: 30px;
+    font-size: 20px;
     font-weight: 100;
-  color: rgb(16, 16, 17);
-  text-decoration: underline;
+    color: rgb(16, 16, 17);
+    text-decoration: underline;
 }
 .multi{text-transform: uppercase;
     color: rgb(52, 161, 219);
@@ -109,7 +119,7 @@ font-size: 20px;
 .icons :hover{
     transform: scale(1.8);
    
-    color: grey;
+    color: #a3cbea;
 }/*.qual
 
 { position: relative;
@@ -157,8 +167,8 @@ font-size: 20px;
 .spec{
 
     width: 100%;
-    height: 90vh;
-    margin-top: 10px;
+    height: 92vh;
+    
     background-position:bottom;
     background-image: url('images/tech.jpg');
     background-repeat: no-repeat;
@@ -166,7 +176,7 @@ font-size: 20px;
 }
 
 #tech{
-    margin-top: 20px;
+    
     color: black;
     text-decoration: underline;
 }
@@ -195,14 +205,19 @@ margin-top: 10px;
     position: relative;
     width: 225px;
     height: 250px;  
-    background-color: yellow;
-    
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px grey;
+    transition: 300ms;
+}
+.sbox:hover{
+    transform: scale(1.2);
 }
 .b{
    margin-top: 10px;
     position: relative;
     width: 300px;
-    height: 400px;  
+    height: 410px;  
     bottom: -120px;
     right: -950px;
     background-color: rgb(234, 223, 201);
@@ -223,40 +238,69 @@ margin-top: 10px;
 }
 #sec1{
     width: 100%;
-    height:100vh;
+    height:95vh;
     background-color: rgb(79, 144, 176);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 30px;
-}.bbox{
-    width: 33%;
+    margin-top: 20px;
+}
+#s1{
+    margin-left: 5%;
+}
+#s3{
+    margin-right: 5%;
+}
+.bbox{
+    width: 350px;
     height: 300px; 
     margin: 30px ;
     background-color:white;
-    display: flex;
-
-
-
 box-shadow: 5px 5px 5px grey;
 }
 
 
+.imgs{
+height: 60%;
+width: 100%;
+}
 
-
-
-
-/*.imgs{
-   
+.text{
+    height: 40%;
+    width: 100%;
+}
+#b1{
+    background-image: url('https://p.kindpng.com/picc/s/358-3580594_web-designing-hd-png-download.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#b2{
+    background-image: url('/images/datamining.jpeg');
+    background-repeat: no-repeat;
+    background-size:contain;
     
-    width: 33%;
-    height: 300px; 
-    margin: 30px ;
-    background-color:white;
-    display: flex;
-justify-content: space-evenly;
-
-align-items: center;
-flex-direction: column;
-box-shadow: 5px 5px 5px grey;
+}
+#b3{
+    background-image: url('/images/database.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#b4{
+    background-image: url('/images/bigdata.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#b5{
+    background-image: url('https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/eb/e617b0eac911e6a564515a41c2bb16/hamming-cube-larger.png?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25');
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#b6{
+    background-image: url('https://thumbs.dreamstime.com/b/monitoring-information-retrieval-color-icon-vector-illustration-sign-isolated-symbol-225740607.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#bott{
+    text-align: center;
+    margin-top: 95%;
 }
