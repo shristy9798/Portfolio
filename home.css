@@ -330,18 +330,18 @@ width: 100%;
     background-size: contain;
 }
 #b2{
-    background-image: url('/images/datamining.jpg');
+    background-image: url('https://github.com/shristy9798/Portfolio/blob/main/images/datamining.jpg?raw=true');
     background-repeat: no-repeat;
     background-size:contain;
     
 }
 #b3{
-    background-image: url('/images/database.jpg');
+    background-image: url('https://github.com/shristy9798/Portfolio/blob/main/images/database.jpg?raw=true');
     background-repeat: no-repeat;
     background-size:contain;
 }
 #b4{
-    background-image: url('/images/bigdata.jpg');
+    background-image: url('https://github.com/shristy9798/Portfolio/blob/main/images/bigdata.jpg?raw=true');
     background-repeat: no-repeat;
     background-size:contain;
 }
@@ -358,4 +358,8 @@ width: 100%;
 #bott{
     text-align: center;
     margin-top: 95%;
+}
+.fp-tooltip{
+color: #333333 !important;
+font-weight: 500 !important;
 }
