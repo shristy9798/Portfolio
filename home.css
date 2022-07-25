@@ -345,3 +345,7 @@ width: 100%;
     text-align: center;
     margin-top: 95%;
 }
+.fp-tooltip{
+color: #333333 !important;
+font-weight: 500 !important;
+}
